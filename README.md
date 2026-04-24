@@ -42,31 +42,31 @@ cd Data-Analyst-Automation
 ```
 
 ### **2. Create a Virtual Environment:**
-'''bash
+```bash
 python -m venv venv
 # Windows
 venv\Scripts\activate
 # Mac/Linux
 source venv/bin/activate
-'''
+```
 
 ### **3. Install Dependencies:**
-'''bash
+```bash
 pip install -r requirements.txt
-'''
+```
 
 ### **4. Environment Variables:**
 Create a .env file in the root directory:
-'''bash
+```bash
 CLOUD_API_KEY=your_api_key_here
 CLOUD_BASE_URL=[https://api.openai.com/v1](https://api.openai.com/v1)
-'''
+```
 
 ### 🏃 **Running the App**
 Start the Streamlit server:
-'''bash
+```bash
 streamlit run main.py
-'''
+```
 
 ## 💡 Usage Guide
 
