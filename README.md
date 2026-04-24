@@ -39,3 +39,59 @@ Before running the application, ensure you have:
 ```bash
 git clone https://github.com/HBEKS/Data-Analyst-Automation.git
 cd Data-Analyst-Automation'''
+
+### **2. Create a Virtual Environment:**
+'''bash
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# Mac/Linux
+source venv/bin/activate
+'''
+
+### **3. Install Dependencies:**
+'''bash
+pip install -r requirements.txt
+'''
+
+### **4. Environment Variables:**
+Create a .env file in the root directory:
+'''bash
+CLOUD_API_KEY=your_api_key_here
+CLOUD_BASE_URL=[https://api.openai.com/v1](https://api.openai.com/v1)
+'''
+
+### 🏃 **Running the App**
+Start the Streamlit server:
+'''bash
+streamlit run main.py
+'''
+
+## 💡 Usage Guide
+
+To start analyzing your data, follow these simple steps within the application interface:
+
+1. **Configure AI Engine**: 
+   - Open the **Sidebar** on the left.
+   - Choose **Local (Ollama)** if you want to run models on your own hardware (privacy-focused).
+   - Choose **Cloud (OpenAI/Groq)** for faster processing and advanced reasoning.
+
+2. **Upload Dataset**: 
+   - Use the file uploader in the main area.
+   - Supported formats: `.csv`, `.xlsx`, `.xls`, `.parquet`, or `.json`.
+   - *Note: The agent automatically cleans and normalizes column names for better AI compatibility.*
+
+3. **Interact with Your Data**: 
+   Type your questions in the chat input at the bottom. You can try commands like:
+   * 📋 **Inspection**: *"Tampilkan 5 baris pertama data ini untuk melihat strukturnya."*
+   * 🔍 **Analysis**: *"Apa korelasi antara suhu (temperature) dan jumlah penyewaan sepeda?"*
+   * 📈 **Visualization**: *"Buatlah grafik garis yang menunjukkan tren penjualan bulanan."*
+   * 🧠 **Business Insight**: *"Berdasarkan data ini, berikan 3 rekomendasi strategi untuk meningkatkan penjualan."*
+
+---
+
+## 👨‍💻 Author
+
+**Daniel Wuliutomo** *Informatics Engineering Student — University of Surabaya (Ubaya)* *AI Engineer Bootcamp Participant — [dsarea.id](https://dsarea.id)*
+
+---
