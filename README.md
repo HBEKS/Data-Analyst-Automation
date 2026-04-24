@@ -93,6 +93,6 @@ To start analyzing your data, follow these simple steps within the application i
 
 ## 👨‍💻 Author
 
-**Daniel Wuliutomo** *Informatics Engineering Student — University of Surabaya (Ubaya)* *AI Engineer Bootcamp Participant — [dsarea.id](https://dsarea.id)*
+**Daniel Wuliutomo** - *Informatics Engineering Student — University of Surabaya (Ubaya)* *AI Engineer Bootcamp Participant — [dsarea.id](https://dsarea.id)*
 
 ---
