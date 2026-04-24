@@ -1,0 +1,35 @@
+Berdasarkan dataset SeoulBikeData.csv yang Anda unggah, terdapat berbagai variabel menarik seperti jumlah sepeda yang disewa, jam, suhu, kelembapan, kecepatan angin, curah hujan, hingga status hari libur.
+
+Sebagai seorang Data Analyst, berikut adalah daftar pertanyaan analitis yang bisa Anda ajukan untuk mengeksplorasi data ini, dibagi berdasarkan kategori analisisnya:
+
+1. Analisis Deskriptif & Tren Waktu
+Pertanyaan ini bertujuan untuk memahami pola dasar penggunaan sepeda.
+
+Tren Jam: Pada jam berapa terjadi lonjakan (peak) peminjaman sepeda? Apakah polanya berbeda antara hari kerja dan akhir pekan?
+
+Tren Musiman: Musim apa (Winter, Spring, Summer, Autumn) yang memiliki rata-rata peminjaman sepeda tertinggi dan terendah?
+
+Analisis Hari Libur: Apakah ada perbedaan signifikan dalam jumlah sepeda yang disewa pada hari libur (Holiday) dibandingkan dengan hari biasa?
+
+2. Analisis Korelasi Cuaca
+Pertanyaan ini mengeksplorasi bagaimana faktor lingkungan memengaruhi perilaku pengguna.
+
+Dampak Suhu: Bagaimana hubungan antara suhu udara dengan jumlah peminjaman? Apakah ada "titik suhu nyaman" di mana peminjaman mencapai angka maksimal?
+
+Faktor Penghambat: Seberapa besar penurunan jumlah peminjaman saat terjadi hujan (Rainfall) atau salju (Snowfall)?
+
+Kualitas Udara & Visibilitas: Apakah visibilitas yang rendah memengaruhi minat orang untuk bersepeda?
+
+3. Analisis Diagnostik
+Mencari tahu alasan di balik pola tertentu.
+
+Anomali Data: Mengapa ada hari-hari di mana jumlah sepeda yang disewa nol atau sangat rendah padahal cuaca mendukung? (Bisa dikaitkan dengan kolom Functioning Day).
+
+Interaksi Variabel: Mana yang lebih berpengaruh terhadap penurunan minat bersepeda: suhu yang sangat dingin atau kelembapan yang sangat tinggi?
+
+4. Analisis Prediktif (Lanjutan)
+Jika Anda ingin melangkah lebih jauh ke arah Machine Learning.
+
+Estimasi Stok: Berdasarkan prakiraan cuaca besok (suhu, hujan, jam), berapa perkiraan jumlah sepeda yang harus disiapkan di stasiun agar tidak kekurangan stok?
+
+Segmentasi Hari: Bisakah kita mengelompokkan hari-hari dalam setahun menjadi klaster "High Demand", "Medium Demand", dan "Low Demand" berdasarkan variabel cuaca?

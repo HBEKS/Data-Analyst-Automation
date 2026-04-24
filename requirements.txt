@@ -1,0 +1,15 @@
+langchain
+langchain-community
+langchain-experimental
+ollama
+pandas
+matplotlib
+seaborn
+scikit-learn
+python-dotenv
+langchain-openai
+langchain-ollama
+openpyxl 
+pyarrow
+tabulate
+streamlit
