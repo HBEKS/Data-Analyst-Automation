@@ -38,7 +38,8 @@ Before running the application, ensure you have:
 
 ```bash
 git clone https://github.com/HBEKS/Data-Analyst-Automation.git
-cd Data-Analyst-Automation'''
+cd Data-Analyst-Automation
+```
 
 ### **2. Create a Virtual Environment:**
 '''bash
